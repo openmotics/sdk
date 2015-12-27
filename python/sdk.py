@@ -839,7 +839,7 @@ class OpenMoticsCloudApi(OpenMoticsApi):
 
     def __init__(self, username, password):
         """ Create a new cloud connector using the cloud username and password. """
-        OpenMoticsApi.__init__(self, username, password, "dev.openmotics.com", False)
+        OpenMoticsApi.__init__(self, username, password, "cloud.openmotics.com", False)
         self.installations = None
         self.installation_id = None
 
