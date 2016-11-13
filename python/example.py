@@ -1,4 +1,4 @@
-import sdk
+from sdk import OpenMoticsApi, OpenMoticsCloudApi, traceback
 
 
 # Test code for the gateway api.
